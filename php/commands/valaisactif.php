@@ -75,8 +75,8 @@ class ValaisActif_Command extends \WP_CLI\CommandWithDBObject
         echo "start valaisactif sync\n";
 
         $urls = array(
-            'http://www.guidle.com/m_jKCxcD/Verbier-St-Bernard/%C3%89v%C3%A9nements/',
-            'http://www.guidle.com/m_LwXSxr/Martigny/Veranstaltungen/',
+            'http://www.guidle.com/m_KEkW3V/Valais-Actif/Events/',
+            'http://www.guidle.com/m_MRqNmV/Valais-Actif/Ausflugsvorschl%C3%A4ge/',
         );
 
         foreach ($urls as $url) {
